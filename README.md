@@ -1,39 +1,36 @@
-# AI Lane Monitoring System
+<div align="center">
+
+# AI Lane Monitering System
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Multiple-blue?style=for-the-badge&logo=codeigniter&logoColor=white" alt="Language" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=law&logoColor=white" alt="License" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Status" />
+</p>
+
+*An advanced software structure developed by Karthik Idikuda.*
+
+<br/>
+
+</div>
 
 ## Overview
-An advanced driver assistance system (ADAS) feature that uses computer vision to detect lane markings on the road. It provides real-time alerts to drivers if they drift out of their lane, enhancing road safety.
+ADAS system for real-time lane departure warning and road safety.
 
-## Features
--   **Lane Detection**: Robust identification of road lane lines using edge detection.
--   **Curvature Calculation**: Estimates the radius of road curvature.
--   **Offset Measurement**: Determines the vehicle's position relative to the lane center.
--   **Visual Overlay**: Draws detected lanes and metrics directly onto the video feed.
+<br/>
 
-## Technology Stack
--   **Vision**: OpenCV.
--   **Language**: Python.
--   **Algorithm**: Sliding Window technique / Hough Transform.
+## Architecture & Features
+- **Clean Architecture:** Ensures high maintainability and modular structure.
+- **Optimized Performance:** Built to handle intensive operations with minimal latency.
+- **Scalable Design:** Seamlessly adaptable for future functional expansions.
 
-## Usage Flow
-1.  **Input**: System takes a video stream from a dashboard camera.
-2.  **Preprocess**: Image is warped, color-corrected, and filtered.
-3.  **Detect**: Lane pixels are identified and fitted to a polynomial.
-4.  **Display**: Processed frame with lane overlay is shown to the user.
-
-## Quick Start
-```bash
-# Clone the repository
-git clone https://github.com/Nytrynox/AI-Lane-Monitoring-System.git
-
-# Install dependencies
-pip install opencv-python numpy matplotlib
-
-# Run the detector
-python main.py
-```
+<br/>
 
 ## License
-MIT License
+This project operates under the **MIT License**. See the `LICENSE` file for more details.
 
-## Author
-**Karthik Idikuda**
+---
+<div align="center">
+  <br/>
+  <i>Engineered by <b>Karthik Idikuda</b></i>
+</div>
